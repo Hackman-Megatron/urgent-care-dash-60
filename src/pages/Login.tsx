@@ -20,7 +20,7 @@ const userTypes = [
     description: 'Gestion des patients et soins médicaux',
     icon: HeartIcon,
     color: 'bg-primary text-primary-foreground',
-    route: '/operateur'
+    route: '/dashboard'
   },
   {
     id: 'admin',
@@ -28,7 +28,7 @@ const userTypes = [
     description: 'Gestion du système et des utilisateurs',
     icon: CogIcon,
     color: 'bg-secondary text-secondary-foreground',
-    route: '/admin'
+    route: '/dashboard'
   }
 ];
 
