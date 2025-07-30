@@ -30,23 +30,23 @@ const Index = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                Gérez vos urgences 
-                <span className="block text-primary-light">efficacement</span>
-                <span className="block">en temps réel</span>
+                Manage your emergencies 
+                <span className="block text-primary-light">efficiently</span>
+                <span className="block">in real time</span>
               </h1>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Optimisez les temps d'attente, améliorez la qualité des soins et 
-                digitalisez votre processus de gestion des urgences médicales.
+                Optimize waiting times, improve quality of care and 
+                digitize your medical emergency management process.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/patient">
                   <Button size="lg" className="bg-white text-primary hover:bg-white/90 w-full sm:w-auto">
-                    Espace Patient
+                    Patient Access
                   </Button>
                 </Link>
                 <Link to="/login">
                   <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 w-full sm:w-auto">
-                    Connexion Pro
+                    Pro Login
                   </Button>
                 </Link>
               </div>
@@ -60,7 +60,7 @@ const Index = () => {
             >
               <img 
                 src={heroIllustration} 
-                alt="Illustration médicale montrant des professionnels de santé utilisant la technologie numérique avec une ambulance" 
+                alt="Medical illustration showing healthcare professionals using digital technology with an ambulance" 
                 className="w-full h-auto max-w-lg rounded-2xl"
               />
             </motion.div>
@@ -79,11 +79,11 @@ const Index = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              Une solution complète
+              A complete solution
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Notre plateforme révolutionne la gestion des urgences avec des outils 
-              adaptés à chaque utilisateur
+              Our platform revolutionizes emergency management with tools 
+              adapted to each user
             </p>
           </motion.div>
 
@@ -99,16 +99,16 @@ const Index = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
                 <DevicePhoneMobileIcon className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-card-foreground mb-4">Interface Patient</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-4">Patient Interface</h3>
               <p className="text-muted-foreground mb-6">
-                Application mobile intuitive pour les patients avec visualisation 
-                des temps d'attente en temps réel
+                Intuitive mobile application for patients with real-time 
+                waiting time visualization
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Authentification SPID</li>
-                <li>• Choix du centre d'urgence</li>
-                <li>• Suivi temps d'attente</li>
-                <li>• Réservation simplifiée</li>
+                <li>• SPID Authentication</li>
+                <li>• Emergency center selection</li>
+                <li>• Waiting time tracking</li>
+                <li>• Simplified booking</li>
               </ul>
             </motion.div>
 
@@ -123,16 +123,16 @@ const Index = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
                 <HeartIcon className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-card-foreground mb-4">Espace Opérateur</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-4">Operator Space</h3>
               <p className="text-muted-foreground mb-6">
-                Outils professionnels pour optimiser la prise en charge 
-                et le suivi des patients
+                Professional tools to optimize patient care 
+                and monitoring
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Gestion codes couleur</li>
-                <li>• Paramètres vitaux</li>
-                <li>• Diagnostics médicaux</li>
-                <li>• Recherche patients</li>
+                <li>• Color code management</li>
+                <li>• Vital parameters</li>
+                <li>• Medical diagnostics</li>
+                <li>• Patient search</li>
               </ul>
             </motion.div>
 
@@ -149,14 +149,14 @@ const Index = () => {
               </div>
               <h3 className="text-2xl font-bold text-card-foreground mb-4">Administration</h3>
               <p className="text-muted-foreground mb-6">
-                Tableau de bord complet pour la gestion des utilisateurs 
-                et l'analyse des performances
+                Complete dashboard for user management 
+                and performance analysis
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Gestion utilisateurs</li>
-                <li>• Statistiques avancées</li>
-                <li>• Configuration système</li>
-                <li>• Rapports détaillés</li>
+                <li>• User management</li>
+                <li>• Advanced statistics</li>
+                <li>• System configuration</li>
+                <li>• Detailed reports</li>
               </ul>
             </motion.div>
           </div>
@@ -174,10 +174,10 @@ const Index = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              Choisissez votre interface
+              Choose your interface
             </h2>
             <p className="text-xl text-muted-foreground">
-              Accédez à l'application selon votre profil
+              Access the application according to your profile
             </p>
           </motion.div>
 
@@ -187,14 +187,14 @@ const Index = () => {
               className="bg-gradient-to-br from-primary to-primary-light text-white rounded-3xl p-8 text-center shadow-elegant"
             >
               <DevicePhoneMobileIcon className="w-16 h-16 mx-auto mb-6" />
-              <h3 className="text-2xl font-bold mb-4">Patient ?</h3>
+              <h3 className="text-2xl font-bold mb-4">Patient?</h3>
               <p className="text-white/90 mb-6">
-                Accédez à l'interface mobile optimisée pour réserver 
-                et suivre votre urgence médicale
+                Access the mobile interface optimized for booking 
+                and tracking your medical emergency
               </p>
               <Link to="/patient">
                 <Button size="lg" className="bg-white text-primary hover:bg-white/90">
-                  Accès Patient
+                  Patient Access
                 </Button>
               </Link>
             </motion.div>
@@ -204,14 +204,14 @@ const Index = () => {
               className="bg-card border-2 border-primary/20 rounded-3xl p-8 text-center shadow-card"
             >
               <ComputerDesktopIcon className="w-16 h-16 mx-auto mb-6 text-primary" />
-              <h3 className="text-2xl font-bold text-card-foreground mb-4">Professionnel de Santé ?</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-4">Healthcare Professional?</h3>
               <p className="text-muted-foreground mb-6">
-                Connectez-vous à l'interface professionnelle pour gérer 
-                les urgences et les patients
+                Connect to the professional interface to manage 
+                emergencies and patients
               </p>
               <Link to="/login">
                 <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
-                  Connexion Pro
+                  Pro Login
                 </Button>
               </Link>
             </motion.div>
@@ -230,10 +230,10 @@ const Index = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              Témoignages
+              Testimonials
             </h2>
             <p className="text-xl text-muted-foreground">
-              Ce que disent nos utilisateurs
+              What our users say
             </p>
           </motion.div>
 
@@ -251,12 +251,12 @@ const Index = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="font-semibold text-card-foreground">Dr. Marco Rossi</h4>
-                  <p className="text-sm text-muted-foreground">Médecin urgentiste - Policlinico Sant'Orsola</p>
+                  <p className="text-sm text-muted-foreground">Emergency Doctor - Policlinico Sant'Orsola</p>
                 </div>
               </div>
               <p className="text-muted-foreground italic">
-                "UrgencePro a révolutionné notre façon de gérer les urgences. 
-                Les temps d'attente ont considérablement diminué et l'organisation est bien plus fluide."
+                "EmergencyPro has revolutionized the way we manage emergencies. 
+                Waiting times have significantly decreased and the organization is much more fluid."
               </p>
             </motion.div>
 
@@ -273,12 +273,12 @@ const Index = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="font-semibold text-card-foreground">Sofia Bianchi</h4>
-                  <p className="text-sm text-muted-foreground">Patiente</p>
+                  <p className="text-sm text-muted-foreground">Patient</p>
                 </div>
               </div>
               <p className="text-muted-foreground italic">
-                "Finalement, je peux voir les temps d'attente avant de me déplacer ! 
-                Cela m'a fait gagner beaucoup de temps et réduit mon stress."
+                "Finally, I can see waiting times before traveling! 
+                This has saved me a lot of time and reduced my stress."
               </p>
             </motion.div>
 
@@ -295,12 +295,12 @@ const Index = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="font-semibold text-card-foreground">Luca Ferrari</h4>
-                  <p className="text-sm text-muted-foreground">Infirmier - Ospedale Maggiore</p>
+                  <p className="text-sm text-muted-foreground">Nurse - Ospedale Maggiore</p>
                 </div>
               </div>
               <p className="text-muted-foreground italic">
-                "L'interface est intuitive et nous permet de mieux organiser les soins. 
-                La gestion des codes couleur est particulièrement efficace."
+                "The interface is intuitive and allows us to better organize care. 
+                Color code management is particularly effective."
               </p>
             </motion.div>
           </div>
@@ -318,10 +318,10 @@ const Index = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              Contactez-nous
+              Contact us
             </h2>
             <p className="text-xl text-muted-foreground">
-              Une question ? Nous sommes là pour vous aider
+              Have a question? We are here to help
             </p>
           </motion.div>
 
@@ -332,14 +332,14 @@ const Index = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-foreground mb-6">Informations de contact</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-6">Contact information</h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <PhoneIcon className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Téléphone</h4>
+                    <h4 className="font-semibold text-foreground">Phone</h4>
                     <p className="text-muted-foreground">+39 051 2144111</p>
                   </div>
                 </div>
@@ -364,8 +364,8 @@ const Index = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Adresse</h4>
-                    <p className="text-muted-foreground">Via Università, 1<br />40126 Bologna, Italie</p>
+                    <h4 className="font-semibold text-foreground">Address</h4>
+                    <p className="text-muted-foreground">Via Università, 1<br />40126 Bologna, Italy</p>
                   </div>
                 </div>
               </div>
@@ -378,14 +378,14 @@ const Index = () => {
               viewport={{ once: true }}
               className="bg-card rounded-3xl p-8 shadow-card border"
             >
-              <h3 className="text-2xl font-bold text-card-foreground mb-6">Envoyez-nous un message</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-6">Send us a message</h3>
               <form className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-card-foreground mb-2">Nom</label>
+                  <label className="block text-sm font-medium text-card-foreground mb-2">Name</label>
                   <input
                     type="text"
                     className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-                    placeholder="Votre nom"
+                    placeholder="Your name"
                   />
                 </div>
                 <div>
@@ -393,7 +393,7 @@ const Index = () => {
                   <input
                     type="email"
                     className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-                    placeholder="votre@email.com"
+                    placeholder="your@email.com"
                   />
                 </div>
                 <div>
@@ -401,11 +401,11 @@ const Index = () => {
                   <textarea
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-                    placeholder="Votre message..."
+                    placeholder="Your message..."
                   />
                 </div>
                 <Button className="w-full bg-primary text-white hover:bg-primary/90">
-                  Envoyer le message
+                  Send message
                 </Button>
               </form>
             </motion.div>

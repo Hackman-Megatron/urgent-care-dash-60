@@ -41,7 +41,7 @@ export const ChoixCentre = () => {
           <Link to="/patient" className="p-2 -ml-2">
             <ArrowLeftIcon className="w-6 h-6 text-foreground" />
           </Link>
-          <h1 className="text-lg font-semibold text-foreground">Centres d'urgence</h1>
+          <h1 className="text-lg font-semibold text-foreground">Emergency Centers</h1>
           <div className="w-10" />
         </div>
       </div>

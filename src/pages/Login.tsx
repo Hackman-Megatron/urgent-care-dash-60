@@ -16,16 +16,16 @@ import {
 const userTypes = [
   {
     id: 'operateur',
-    label: 'Opérateur Sanitaire',
-    description: 'Gestion des patients et soins médicaux',
+    label: 'Healthcare Operator',
+    description: 'Patient management and medical care',
     icon: HeartIcon,
     color: 'bg-primary text-primary-foreground',
     route: '/dashboard'
   },
   {
     id: 'admin',
-    label: 'Administrateur',
-    description: 'Gestion du système et des utilisateurs',
+    label: 'Administrator',
+    description: 'System and user management',
     icon: CogIcon,
     color: 'bg-secondary text-secondary-foreground',
     route: '/dashboard'
@@ -57,7 +57,7 @@ export const Login = () => {
       setCurrentUser({
         id: '1',
         nom: selectedType === 'admin' ? 'Admin' : 'Dr. Martin',
-        prenom: selectedType === 'admin' ? 'Système' : 'Jean',
+        prenom: selectedType === 'admin' ? 'System' : 'Jean',
         email: `${selectedType}@pros.com`,
         role: selectedType || 'operateur'
       });
@@ -81,10 +81,10 @@ export const Login = () => {
             className="text-center mb-12"
           >
             <h1 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              Connexion Professionnelle
+              Professional Login
             </h1>
             <p className="text-xl text-muted-foreground">
-              Choisissez votre type de compte pour accéder à l'interface dédiée
+              Choose your account type to access the dedicated interface
             </p>
           </motion.div>
 
@@ -123,7 +123,7 @@ export const Login = () => {
           >
             <Link to="/" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
               <ArrowLeftIcon className="w-4 h-4 mr-2" />
-              Retour à l'accueil
+              Back to home
             </Link>
           </motion.div>
         </div>
@@ -153,21 +153,21 @@ export const Login = () => {
               {userTypes.find(type => type.id === selectedType)?.label}
             </h2>
             <p className="text-muted-foreground">
-              Connectez-vous à votre espace professionnel
+              Connect to your professional workspace
             </p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-6">
             <div>
               <Label htmlFor="username" className="text-card-foreground">
-                Nom d'utilisateur
+                Username
               </Label>
               <Input
                 id="username"
                 type="text"
                 value={credentials.username}
                 onChange={(e) => setCredentials({...credentials, username: e.target.value})}
-                placeholder="Votre nom d'utilisateur"
+                placeholder="Your username"
                 className="rounded-2xl"
                 required
               />
@@ -175,14 +175,14 @@ export const Login = () => {
 
             <div>
               <Label htmlFor="password" className="text-card-foreground">
-                Mot de passe
+                Password
               </Label>
               <Input
                 id="password"
                 type="password"
                 value={credentials.password}
                 onChange={(e) => setCredentials({...credentials, password: e.target.value})}
-                placeholder="Votre mot de passe"
+                placeholder="Your password"
                 className="rounded-2xl"
                 required
               />
@@ -197,10 +197,10 @@ export const Login = () => {
               {isLoading ? (
                 <div className="flex items-center space-x-2">
                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  <span>Connexion...</span>
+                  <span>Connecting...</span>
                 </div>
               ) : (
-                'Se connecter'
+'Sign In'
               )}
             </Button>
           </form>
@@ -210,7 +210,7 @@ export const Login = () => {
               onClick={() => setStep('choice')}
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
-              Changer de type de compte
+              Change account type
             </button>
           </div>
         </motion.div>

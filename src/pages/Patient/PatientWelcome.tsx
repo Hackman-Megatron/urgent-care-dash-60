@@ -33,12 +33,12 @@ export const PatientWelcome = () => {
           </div>
           
           <h1 className="text-3xl font-bold mb-4 leading-tight text-foreground">
-            Bienvenue Patient
+            Welcome Patient
           </h1>
           
           <p className="text-muted-foreground mb-8 leading-relaxed">
-            Gérez vos urgences médicales facilement et en toute sécurité. 
-            Accédez aux centres d'urgence avec les temps d'attente en temps réel.
+            Manage your medical emergencies easily and securely. 
+            Access emergency centers with real-time waiting times.
           </p>
 
           {/* Fonctionnalités */}
@@ -53,8 +53,8 @@ export const PatientWelcome = () => {
                 <ClockIcon className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Temps d'attente en temps réel</h3>
-                <p className="text-sm text-muted-foreground">Consultez les délais actuels avant de vous déplacer</p>
+                <h3 className="font-semibold text-foreground mb-1">Real-time waiting times</h3>
+                <p className="text-sm text-muted-foreground">Check current delays before traveling</p>
               </div>
             </motion.div>
             
@@ -68,8 +68,8 @@ export const PatientWelcome = () => {
                 <MapPinIcon className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Centres à proximité</h3>
-                <p className="text-sm text-muted-foreground">Trouvez le centre d'urgence le plus proche et disponible</p>
+                <h3 className="font-semibold text-foreground mb-1">Nearby centers</h3>
+                <p className="text-sm text-muted-foreground">Find the nearest and available emergency center</p>
               </div>
             </motion.div>
             
@@ -83,8 +83,8 @@ export const PatientWelcome = () => {
                 <HeartIcon className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Prise en charge optimisée</h3>
-                <p className="text-sm text-muted-foreground">Code couleur adapté à votre état de santé</p>
+                <h3 className="font-semibold text-foreground mb-1">Optimized care</h3>
+                <p className="text-sm text-muted-foreground">Color code adapted to your health condition</p>
               </div>
             </motion.div>
             
@@ -98,8 +98,8 @@ export const PatientWelcome = () => {
                 <ShieldCheckIcon className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Données sécurisées</h3>
-                <p className="text-sm text-muted-foreground">Vos informations médicales protégées selon les normes RGPD</p>
+                <h3 className="font-semibold text-foreground mb-1">Secure data</h3>
+                <p className="text-sm text-muted-foreground">Your medical information protected according to GDPR standards</p>
               </div>
             </motion.div>
           </div>
@@ -114,7 +114,7 @@ export const PatientWelcome = () => {
                 size="lg" 
                 className="bg-primary text-white hover:bg-primary/90 w-full py-4 text-lg font-semibold rounded-xl"
               >
-                Commencer
+                Start
               </Button>
             </Link>
           </motion.div>
@@ -124,7 +124,7 @@ export const PatientWelcome = () => {
       {/* Footer mobile */}
       <div className="p-6 text-center bg-white border-t">
         <p className="text-sm text-muted-foreground">
-          En cas d'urgence vitale, appelez le 15
+          In case of life-threatening emergency, call 15
         </p>
       </div>
     </div>

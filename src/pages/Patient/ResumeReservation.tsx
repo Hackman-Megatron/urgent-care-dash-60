@@ -88,7 +88,7 @@ export const ResumeReservation = () => {
             Réservation confirmée !
           </h2>
           <p className="text-muted-foreground">
-            Votre demande a été transmise au centre d'urgence
+            Your request has been sent to the emergency center
           </p>
         </motion.div>
 
@@ -184,11 +184,11 @@ export const ResumeReservation = () => {
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li className="flex items-start space-x-2">
               <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0 mt-2" />
-              <span>Rendez-vous au centre d'urgence avec votre carte d'identité</span>
+              <span>Go to the emergency center with your ID card</span>
             </li>
             <li className="flex items-start space-x-2">
               <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0 mt-2" />
-              <span>Présentez-vous à l'accueil avec votre code d'urgence</span>
+              <span>Present yourself at reception with your emergency code</span>
             </li>
             <li className="flex items-start space-x-2">
               <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0 mt-2" />
@@ -206,7 +206,7 @@ export const ResumeReservation = () => {
         >
           <p className="text-sm text-destructive text-center">
             <strong>Important:</strong> Si votre état s'aggrave, 
-            appelez immédiatement le 15 ou rendez-vous directement aux urgences.
+            immediately call 15 or go directly to the emergency room.
           </p>
         </motion.div>
 
@@ -232,7 +232,7 @@ export const ResumeReservation = () => {
               size="lg" 
               className="w-full py-4 text-lg font-semibold rounded-2xl"
             >
-              Retour à l'accueil
+              Back to home
             </Button>
           </Link>
         </motion.div>

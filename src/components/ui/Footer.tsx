@@ -20,8 +20,8 @@ export const Footer = () => {
               <span className="text-xl font-bold">Pro S</span>
             </Link>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
-              Solution complète de gestion des urgences médicales. 
-              Optimisez les temps d'attente et améliorez la qualité des soins.
+              Complete medical emergency management solution. 
+              Optimize waiting times and improve quality of care.
             </p>
             <div className="flex space-x-4">
               <motion.a 
@@ -57,21 +57,21 @@ export const Footer = () => {
 
           {/* Liens utiles */}
           <div>
-            <h3 className="font-semibold mb-4">Liens utiles</h3>
+            <h3 className="font-semibold mb-4">Useful links</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/fonctionnalites" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Fonctionnalités
+                  Features
                 </Link>
               </li>
               <li>
                 <Link to="/patient" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Espace Patient
+                  Patient Access
                 </Link>
               </li>
               <li>
                 <Link to="/login" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Connexion Pro
+                  Pro Login
                 </Link>
               </li>
               <li>
@@ -84,21 +84,21 @@ export const Footer = () => {
 
           {/* Légal */}
           <div>
-            <h3 className="font-semibold mb-4">Légal</h3>
+            <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/mentions-legales" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Mentions légales
+                  Legal notices
                 </Link>
               </li>
               <li>
                 <Link to="/cgu" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  CGU
+                  Terms of Service
                 </Link>
               </li>
               <li>
                 <Link to="/politique-confidentialite" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Confidentialité
+                  Privacy Policy
                 </Link>
               </li>
               <li>
@@ -111,7 +111,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-primary-foreground/60">
-          <p>&copy; 2024 Pro S. Tous droits réservés.</p>
+          <p>&copy; 2024 Pro S. All rights reserved.</p>
         </div>
       </div>
     </footer>

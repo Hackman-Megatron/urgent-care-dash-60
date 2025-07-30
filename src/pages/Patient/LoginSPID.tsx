@@ -60,7 +60,7 @@ export const LoginSPID = () => {
             <ShieldCheckIcon className="w-10 h-10 text-primary" />
           </div>
           <h2 className="text-2xl font-bold text-foreground mb-2">
-            Connexion sécurisée
+            Secure Login
           </h2>
           <p className="text-muted-foreground">
             Authentifiez-vous avec votre identité numérique
@@ -186,7 +186,7 @@ export const LoginSPID = () => {
                 <span>Authentification...</span>
               </div>
             ) : (
-              `Se connecter avec ${authMethod.toUpperCase()}`
+              `Sign in with ${authMethod.toUpperCase()}`
             )}
           </Button>
         </motion.div>

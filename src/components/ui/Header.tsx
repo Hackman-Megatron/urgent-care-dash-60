@@ -45,13 +45,13 @@ export const Header = ({ variant = 'landing' }: HeaderProps) => {
                 location.pathname === '/' ? 'text-primary font-medium' : ''
               }`}
             >
-              Accueil
+              Home
             </Link>
             <button 
               onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Fonctionnalités
+              Features
             </button>
             <button 
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
@@ -64,10 +64,10 @@ export const Header = ({ variant = 'landing' }: HeaderProps) => {
           <div className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-2 text-sm text-muted-foreground">
               <PhoneIcon className="w-4 h-4" />
-              <span>Urgences: 15</span>
+              <span>Emergency: 15</span>
             </div>
             <Link to="/login">
-              <Button variant="outline">Connexion</Button>
+              <Button variant="outline">Login</Button>
             </Link>
           </div>
         </div>
