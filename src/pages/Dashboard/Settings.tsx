@@ -6,8 +6,8 @@ export const Settings: React.FC = () => {
     <DashboardLayout>
       <div className="space-y-6">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Settings</h1>
-          <p className="text-gray-600 mt-2">System Configuration & Preferences</p>
+          <h1 className="text-xl font-semibold mb-4">Settings</h1>
+          <p className="text-gray-600">System Configuration & Preferences</p>
         </div>
 
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">

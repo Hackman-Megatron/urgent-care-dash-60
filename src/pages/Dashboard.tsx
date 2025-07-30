@@ -7,8 +7,7 @@ export const Dashboard: React.FC = () => {
       <div className="space-y-6">
         {/* Page title */}
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-          <p className="text-gray-600 mt-2">Emergency Management System Overview</p>
+          <h1 className="text-xl font-semibold mb-4">Dashboard</h1>
         </div>
 
         {/* Main content placeholder */}

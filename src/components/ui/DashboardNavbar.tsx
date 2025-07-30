@@ -5,7 +5,6 @@ import {
   BellIcon,
   UserCircleIcon 
 } from '@heroicons/react/24/outline';
-import logo from '@/assets/logo.png';
 
 interface NavbarProps {
   onToggleSidebar: () => void;
@@ -27,7 +26,11 @@ export const DashboardNavbar: React.FC<NavbarProps> = ({ onToggleSidebar }) => {
 
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="Pro S" className="h-8 w-8" />
+            <img 
+              src="/lovable-uploads/ad9c47fb-76f7-474b-9629-488fc16e6c8d.png" 
+              alt="Pro S" 
+              className="h-8 w-8 rounded-lg" 
+            />
             <span className="text-xl font-bold text-gray-900 hidden sm:block">Pro S</span>
           </div>
         </div>
